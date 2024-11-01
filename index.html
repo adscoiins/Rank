@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leaderboard</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -114,6 +114,29 @@
         .bronze {
             color: #cd7f32;
         }
+        .gift-section {
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 18px;
+            color: #00ff99;
+            flex-direction: column;
+            text-align: center;
+        }
+        .gift-section i {
+            font-size: 24px;
+            color: #ffcc00;
+        }
+        .gift-text {
+            font-size: 16px;
+            color: #f0f0f0;
+        }
+        .gift-amount {
+            font-size: 20px;
+            font-weight: bold;
+            color: #00ff99;
+        }
     </style>
 </head>
 <body>
@@ -157,6 +180,11 @@
             <span class="points">21,000,000</span>
             <i class="medal bronze fas fa-medal"></i>
         </div>
+    </div>
+    <div class="gift-section">
+        <i class="fas fa-gift"></i>
+        <span class="gift-text">Prize for the top 3 winners:</span>
+        <span class="gift-amount">$10,000 distributed among the top 3</span>
     </div>
 </body>
 </html>
